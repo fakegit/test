@@ -1,5 +1,4 @@
-# test
-## 自用
+# 自用
 
 * vagex
     * https://github.com/catonisland/Vagex-For-CentOS-6

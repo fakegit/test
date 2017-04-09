@@ -41,6 +41,13 @@ chkconfig vncserver on
 #安装Firefox和中文支持
 yum -y install firefox
 yum -y groupinstall chinese-support
+#直接安装flash
+#wget https://fpdownload.adobe.com/pub/flashplayer/pdc/25.0.0.127/flash-player-ppapi-25.0.0.127-release.i386.rpm
+#rpm -ivh flash-player-ppapi-25.0.0.127-release.i386.rpm
+#安装源然后安装flash
+wget http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm
+rpm -ivh adobe-release-i386-1.0-1.noarch.rpm  #安装adobe源
+yum -y install flash-plugin
 #将下面EOF之前的数据覆盖写入/root/reboot.sh
 cat << EOF > /root/reboot.sh
 #!/bin/bash

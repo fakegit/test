@@ -52,7 +52,8 @@ EOF
 cat << EOF > /root/firefox.sh
 #!/bin/bash
 #Firefox启动
-pkill -9 firefox
+#pkill -9 firefox
+killall firefox
 #vncserver  暂时注释掉，测试ebesucher状态
 export DISPLAY=:1;firefox
 echo
@@ -62,7 +63,8 @@ cat << EOF > /root/refirefox.sh
 #!/bin/bash
 #Firefox重启
 rm -rf /root/.vnc/*.log
-pkill -9 firefox
+#pkill -9 firefox
+killall firefox
 export DISPLAY=:1;firefox
 echo
 EOF

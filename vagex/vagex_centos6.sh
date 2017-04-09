@@ -76,12 +76,12 @@ chmod a+x /root/refirefox.sh
 #将下面EOF之前的数据追加写入/root/root.cron文件
 cat << EOF > /root/root.cron
 #每隔10分钟运行一次/root/refirefox.sh
-03 * * * * bash /root/refirefox.sh
-13 * * * * bash /root/refirefox.sh
-23 * * * * bash /root/refirefox.sh
-33 * * * * bash /root/refirefox.sh
-43 * * * * bash /root/refirefox.sh
-53 * * * * bash /root/refirefox.sh
+#03 * * * * bash /root/refirefox.sh
+#13 * * * * bash /root/refirefox.sh
+#23 * * * * bash /root/refirefox.sh
+#33 * * * * bash /root/refirefox.sh
+#43 * * * * bash /root/refirefox.sh
+#53 * * * * bash /root/refirefox.sh
 #每个小时的0分运行/root/reboot.sh，每个小时的2分运行/root/refirefox.sh
 00 * * * * bash /root/reboot.sh
 02 * * * * bash /root/firefox.sh
@@ -89,4 +89,4 @@ EOF
 #安装crontab文件到/var/spool/cron文件夹，上面的写入操作+该命令==crontab -e
 crontab /root/root.cron
 rm /root/root.cron
-echo "finished !"
+

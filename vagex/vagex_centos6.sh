@@ -53,7 +53,7 @@ cat << EOF > /root/firefox.sh
 #!/bin/bash
 #Firefox启动
 pkill -9 firefox
-vncserver
+#vncserver  暂时注释掉，测试ebesucher状态
 export DISPLAY=:1;firefox
 echo
 EOF

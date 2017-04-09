@@ -8,7 +8,7 @@ done
 EOF
 
 #nohup命令(即no hang up)脱离终端后台运行shell
-nohup bash ./gv.sh &   #会输出到当前目录的nohup.out文件
+nohup bash ./gv.sh &   #日志会输出到当前目录的nohup.out文件
 #当shell中提示了nohup成功后还需要按终端上键盘任意键退回到shell输入命令窗口
 #然后通过在shell中输入exit来退出终端
 #否则会断掉该命令所对应的session，导致nohup对应的进程被通知需要一起shutdown

@@ -2,7 +2,7 @@
 =============
 <p>Mail-in-a-Box  一个非常方便的邮件系统，适用于Ubuntu 14.0.4<br>
 拥有无限别名邮箱、云盘、日历等功能<br>
-一键式安装，很简单<br></p>
+一键式安装，很简单，至少比iRedMail等要简单<br></p>
 
 --------------------------------------------
 ##  DNS记录
@@ -37,7 +37,7 @@ hostname -F /etc/hostname
 
 ----------------------------------------------
 ##  安装
-<p>Ubuntu 14.04雏机</p>
+<p>Ubuntu 14.04 雏机</p>
 <pre><code>curl -s https://mailinabox.email/setup.sh | sudo bash</code></pre>
 <p>期间需要输入管理员邮箱和hostname<br>
 <br>管理员邮箱</p>
@@ -71,12 +71,16 @@ password:</code></pre>
 ![用户相关设置](http://wx1.sinaimg.cn/large/afa1af45ly1fegwu41fbqj20m50g10uh.jpg "用户、别名等")
 <p>还拥有云盘功能</p>
 
-![云盘](http://ws4.sinaimg.cn/large/afa1af45ly1fegww81l41j20fj0bnaan.jpg "云盘")
+![云盘](http://ws4.sinaimg.cn/large/afa1af45ly1fehywiq1e7j20fe0bt0tc.jpg "云盘")
+<p>垃圾邮件测试得分，虽然并不能代表什么，但看着挺不错，比我的腾讯域名邮箱得分都高:joy:<br>
+毕竟腾讯不支持设置DKIM等</p>
 
+![邮件测试](http://wx1.sinaimg.cn/large/afa1af45ly1fehza3u60jj20nv0feaik.jpg "邮件测试")
 ----------------------------------------------------------------------
-<p>暂时就这些,其他好玩的东西等着你去发现</p>
+<p>暂时就这些,还有其他好玩的东西等着去发现</p>
 
-[作者的GitHub](https://github.com/mail-in-a-box/mailinabox "原作者GitHub")
+[GitHub](https://github.com/mail-in-a-box/mailinabox "GitHub")
 
-[作者的网站](https://mailinabox.email/ "原作者网站")
+[官方网站](https://mailinabox.email/ "官方网站")
+<p>网站内有视频教程,观看需自备科学</p>
 

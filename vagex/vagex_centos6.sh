@@ -83,11 +83,11 @@ chmod a+x /root/refirefox.sh
 #将下面EOF之前的数据追加写入/root/root.cron文件
 cat << EOF > /root/root.cron
 #每隔10分钟运行一次/root/refirefox.sh
-03 * * * * bash /root/refirefox.sh
-18 * * * * bash /root/refirefox.sh
+#03 * * * * bash /root/refirefox.sh
+#18 * * * * bash /root/refirefox.sh
 #23 * * * * bash /root/refirefox.sh
 33 * * * * bash /root/refirefox.sh
-48 * * * * bash /root/refirefox.sh
+#48 * * * * bash /root/refirefox.sh
 #53 * * * * bash /root/refirefox.sh
 #每个小时的0分运行/root/reboot.sh，每个小时的2分运行/root/refirefox.sh
 00 * * * * bash /root/reboot.sh

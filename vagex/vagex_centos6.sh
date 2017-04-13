@@ -1,5 +1,8 @@
 #安装Xfce桌面
-wget https://raw.githubusercontent.com/catonisland/Vagex-For-CentOS-6/master/epel-release-6-8.noarch.rpm
+#64位
+#wget http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
+#32位
+wget http://mirrors.ustc.edu.cn/fedora/epel/6/i386/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm 
 yum search xfce
 yum groupinfo xfce
@@ -9,7 +12,7 @@ yum install -y tigervnc tigervnc-server
 #写入配置文件
 cat > /etc/sysconfig/vncservers<<EOF
 VNCSERVERS="1:root"
-VNCSERVERARGS[1]="-geometry 800x600"
+VNCSERVERARGS[1]="-geometry 1000x800"
 EOF
 #创建密码
 echo
@@ -96,4 +99,5 @@ EOF
 #安装crontab文件到/var/spool/cron文件夹，上面的写入操作+该命令==crontab -e
 crontab /root/root.cron
 rm /root/root.cron
-
+#避免出现开机提示Could not look up internet address for hostname.localdomain. 
+echo "vi /etc/hosts ,add 127.0.0.1 hostname.localdomain localhost"

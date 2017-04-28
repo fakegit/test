@@ -87,4 +87,3 @@ mv ./flash/libflashplayer.so /usr/lib/flashplugin-nonfree
 update-alternatives --quiet --install /usr/lib/mozilla/plugins/flash-mozilla.so flash-mozilla.so /usr/lib/flashplugin-nonfree/libflashplayer.so 50
 echo 'should return “ /usr/lib/flashplugin-nonfree/libflashplayer.so ”'
 update-alternatives --list flash-mozilla.so
-

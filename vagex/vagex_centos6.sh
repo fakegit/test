@@ -12,7 +12,7 @@ yum install -y tigervnc tigervnc-server
 #写入配置文件
 cat > /etc/sysconfig/vncservers<<EOF
 VNCSERVERS="1:root"
-VNCSERVERARGS[1]="-geometry 1000x800"
+VNCSERVERARGS[1]="-geometry 1024x768"
 EOF
 #创建密码
 echo

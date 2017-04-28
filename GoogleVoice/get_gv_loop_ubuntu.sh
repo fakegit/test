@@ -10,6 +10,7 @@ EOF
 
 #nohup命令(即no hang up)脱离终端后台运行shell
 nohup bash ./gv.sh &   #命令输出会写入到到当前目录的nohup.out文件
+du -sh ./nohup.out #通过该命令查看输出文件的大小也可以判断脚本是否正在运行
 #当shell中提示了nohup成功后还需要按终端上键盘任意键退回到shell输入命令窗口
 #然后通过在shell中输入exit来退出终端
 #否则会断掉该命令所对应的session，导致nohup对应的进程被通知需要一起shutdown

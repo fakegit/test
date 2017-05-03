@@ -103,8 +103,8 @@ rm /root/root.cron
 echo "
 CentOS修改主机名(hostname) 
 需要修改两处：
-/etc/sysconfig/network
-/etc/hosts
+vi /etc/sysconfig/network
+vi /etc/hosts
 只修改任一处会导致系统启动异常
 /etc/sysconfig/network
 HOSTNAME=localhost.localdomain (如果是默认的话）

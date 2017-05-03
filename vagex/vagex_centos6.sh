@@ -100,4 +100,18 @@ EOF
 crontab /root/root.cron
 rm /root/root.cron
 #避免出现开机提示Could not look up internet address for hostname.localdomain. 
-echo "vi /etc/hosts ,add 127.0.0.1 hostname.localdomain localhost"
+echo "
+CentOS修改主机名(hostname) 
+需要修改两处：
+/etc/sysconfig/network
+/etc/hosts
+只修改任一处会导致系统启动异常
+/etc/sysconfig/network
+HOSTNAME=localhost.localdomain (如果是默认的话）
+修改 localhost.localdomain 为你的主机名
+/etc/hosts
+127.0.0.1 localhost.localdomain localhost 
+其中 127.0.0.1 是本地环路地址
+localhost.localdomain 是主机名(hostname)，修改为你的主机名
+localhost 是主机名的别名（alias），它会出现在Konsole的提示符下，可选。
+"

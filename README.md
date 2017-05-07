@@ -12,4 +12,15 @@
     
 * mail-in-a-box
 
-     * [作者的GitHub](https://github.com/mail-in-a-box/mailinabox "原作者GitHub")
+     * [作者的GitHub](https://github.com/mail-in-a-box/mailinabox "原作者GitHub")    
+
+* 云播
+
+    * [Debian7+centos6云播](https://www.miao8.top/linuxshell/7.html "Debian7+centos6云播") 
+
+    * [Debian7+centos7云播](https://www.miao8.top/linuxshell/5.html "Debian8+centos7云播")  
+
+    * [Transmission+美化webUI](http://www.laozuo.org/9020.html "Transmission+美化webUI")   
+
+    * [transmission-web-control](https://github.com/ronggang/transmission-web-control "transmission-web-control")   
+

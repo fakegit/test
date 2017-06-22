@@ -1,8 +1,10 @@
 #网易邮箱大师
 127.0.0.1 crash.163.com
 127.0.0.1 nos.netease.com
+127.0.0.1 lbs.client.163.com
 127.0.0.1 config.mail.163.com
 127.0.0.1 appconf.mail.163.com
+127.0.0.1 settings.crashlytics.com
 127.0.0.1 m13232.mail.qiye.163.com
 127.0.0.1 mailyxpublic.nosdn.127.net
 127.0.0.1 m13-1.163.com

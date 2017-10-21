@@ -8,7 +8,7 @@ do
 done
 EOF
 
-# screen 命令最好了
+# 用 screen 命令最好了
 
 #nohup命令(即no hang up)脱离终端后台运行shell
 nohup bash ./gv.sh &   #命令输出会写入到到当前目录的nohup.out文件

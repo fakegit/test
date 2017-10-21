@@ -6,7 +6,7 @@
 
 * forsaken-mail
 
-     * [改进作者的博客](http://51.ruyo.net/p/3210.html "改进作者博客")
+     * [改进作者的博客](http://51.ruyo.net/p/3210.html "改进作者网站")
      * [改进作者的GitHub](https://github.com/malaohu/forsaken-mail "改进作者GitHub")
      * [原作者的GitHub](https://github.com/denghongcai/forsaken-mail "原作者GitHub")
     

@@ -46,6 +46,7 @@ headers_down = {
 
 
 def main():
+	print('\n当前仅支持下载 "有声小说" 分类\n')
 	# 脚本入参
 	argvs = sys.argv
 	# 使用说明

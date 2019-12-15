@@ -24,3 +24,8 @@
 
     * [transmission-web-control](https://github.com/ronggang/transmission-web-control "transmission-web-control")   
 
+* 脚本
+	
+	```
+	script/python/down 一些用于批量下载的Python3脚本
+	```
